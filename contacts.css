@@ -1,0 +1,14 @@
+/** navbar **/
+
+.navbar {
+    position: relative;
+    display: block;
+    flex-direction: row;
+    width: 120%;
+    height: 57px;
+    margin-top: -8px;
+    margin-left: -10px;
+    background-color: #011837;
+    border-top: 3px solid #7e0c1e;
+}
+
