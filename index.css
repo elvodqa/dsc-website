@@ -20,9 +20,22 @@ body {
 .index_header nav a {
     text-decoration: none;
     color: #ff6dab;
+    border-bottom: 1px solid #453886;
+    padding-bottom: .25em;
+
 }
 
 .index_header nav a:visited {
     text-decoration: none;
     color: #ff6dab;
+}
+
+.index_header nav a:hover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
 }
