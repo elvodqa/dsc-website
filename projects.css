@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: monospace;
 }
 
 body{
     background: rgb(100, 97, 98);
 }
+
 ul{
     text-decoration: none;
 }
@@ -76,4 +77,5 @@ b{
     color: white;
     padding: 0px 120px;
     padding-bottom: 80px;
+    font-size: 20px;
 }
