@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navlist li{
+    display: inline;
+    padding: 0 20px;
+    float: left;
+}
