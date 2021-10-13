@@ -1,6 +1,5 @@
 const google_logo = document.getElementById("main_google_logo");
 
-
 google_logo.onclick = () => {
     window.scrollBy({
         top: 800,
