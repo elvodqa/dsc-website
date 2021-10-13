@@ -54,4 +54,23 @@ body {
     width: 700px;
 }
 
+.ourteam h1 {
+    text-align: center;
+    margin-top: 450px;
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+.ourteam #teamplaceholder {
+    display: block;
+    /*width: 50%;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 450px;
+
+}
+
+
 
