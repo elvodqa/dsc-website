@@ -14,7 +14,8 @@ body {
     /*background: #fff;*/
     /*padding-right: ;*/
     display: inline-block;
-    margin: 0 0 0 350px;
+    margin: 0 0 0 450px;
+    text-align: center;
 }
 
 .index_header nav a {
@@ -22,6 +23,7 @@ body {
     color: #ff6dab;
     border-bottom: 1px solid #453886;
     padding-bottom: .25em;
+
 
 }
 

@@ -1,0 +1,68 @@
+/** navbar **/
+
+.navbar {
+    position: relative;
+    display: block;
+    flex-direction: row;
+    width: 102%;
+    height: 60px;
+    margin-top: -8px;
+    margin-left: -10px;
+    background-color: #011837;
+    border-top: 3px solid #7e0c1e;
+}
+
+.navbar ul li {
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    min-height: 20px;
+    text-align: center;
+    padding: 7px 30px;
+    padding-top: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar ul li:hover {
+    transition: 3s ease-in-out;
+}
+
+
+.row-1 {
+    width: 100%;
+    height: 700px;
+}
+ .col-1 {
+     width: 95%;
+}
+
+.row-1 .col-1 img {
+    height: 350px;
+    width: 250px;
+    margin: 50px;
+    float: right;
+    border-radius: 15px 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #7e0c1e;
+}
+
+.row-1 .col-1 #get img {
+    display: block;
+    
+}
+
+.row-1 .col-1 iframe {
+    width: 500px;
+    height: 400px;
+    margin: 50px;
+    float: left;
+    border-color: #011837;
+}
+
