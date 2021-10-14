@@ -1,3 +1,12 @@
+body{
+    position: relative;
+    left: 0;
+    margin: auto;
+    align-items: center;
+    background-color: #c0ffd9;
+    font-family: monospace;
+}
+
 #t1 {
     position: relative;
     left: auto;
@@ -10,4 +19,41 @@
     left: auto;
     margin: auto;
     align-items: center;
+}
+
+.index_header nav {
+    font-family: monospace;
+    font-size: 30px;
+
+    background-color: antiquewhite;
+    /*color: #ff6a32;*/
+    position: relative;
+    bottom: -17px;
+    /*background: #fff;*/
+    /*padding-right: ;*/
+    display: inline-block;
+    
+}
+
+.index_header nav a {
+    text-decoration: none;
+    color: #ff6dab;
+    border-bottom: 1px solid #453886;
+    padding-bottom: .25em;
+
+}
+
+.index_header nav a:visited {
+    text-decoration: none;
+    color: #ff6dab;
+}
+
+.index_header nav a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
 }
