@@ -1,10 +1,10 @@
 body{
-
     position: relative;
     left: 0;
     margin: auto;
     align-items: center;
-
+    background-color: #c0ffd9;
+    font-family: monospace;
 }
 
 #t1 {
