@@ -33,7 +33,16 @@
     transition: 3s ease-in-out;
 }
 
+.navbar ul a img {
+    float: left;
+    box-align: left;
+    height: 40px;
+    width: 45px;
+    padding-top: 0px;
+    margin-top: -5px;
+}
 
+/** body **/ 
 .row-1 {
     width: 100%;
     height: 700px;
