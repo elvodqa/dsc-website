@@ -4,7 +4,7 @@
     position: relative;
     display: block;
     flex-direction: row;
-    width: 102%;
+    width: 103%;
     height: 60px;
     margin-top: -8px;
     margin-left: -10px;
@@ -22,7 +22,7 @@
     text-decoration: none;
     min-height: 20px;
     text-align: center;
-    padding: 7px 30px;
+    padding: 7px 29px;
     padding-top: 2px;
     font-size: 20px;
     text-transform: uppercase;
@@ -30,7 +30,9 @@
 }
 
 .navbar ul li:hover {
-    transition: 3s ease-in-out;
+    font-size: 24px;
+    padding: 7px 8px;
+    padding-top: 2px;
 }
 
 .navbar ul a img {
@@ -75,3 +77,17 @@
     border-color: #011837;
 }
 
+/**** mobile ****/ 
+@media screen and (max-width: 680px) {
+    .navbar ul li {
+        display: block;
+    }
+
+    .navbar {
+        background-position: 105%;
+    }
+
+
+
+
+}
