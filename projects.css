@@ -96,3 +96,23 @@ b{
     padding-bottom: 10px;
     font-size: 20px;
 }
+
+/* styling search bar */
+.search{
+    background-color: #ffffff;
+}
+
+    
+.search input[type=text]{
+        width:250px;
+        height:25px;
+        border-radius:25px;
+        border: none;
+    }
+          
+.search{
+        float:right;
+        margin:7px;
+    }
+          
+
