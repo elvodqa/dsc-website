@@ -36,21 +36,13 @@ b{
 
 #navlist li{
     display: inline;
-    padding: 0 15px;
+    padding: 0 5px;
     color: rgb(225, 225, 225);
     font-size: 22px;
     transition: .2s ease-in-out;
     margin: 0px 20px;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgb(219, 219, 219);
-}
-
-#navlist img{
-    position: absolute;
-    left: 15px;
-    top: 14px;
-    width: 60px;
-    height: 30px;
 }
 
 #navlist li:hover{
@@ -79,21 +71,18 @@ b{
     align-items: center;
     background:rgb(228, 228, 228);
     padding-top: 50px;
+    border-bottom:  2px solid rgb(175, 175, 175);
 }
 
 .content:nth-child(1){
-    padding-top: 90px;
+    padding-top: 130px;
 }
 
 .content img{
     padding: 20px 0px;
-    height: 250px;
+    height: 200px;
 }
 
-#first-image{
-    height: 300px;
-    width: 280px;
-}
 .content h2{
     font-size: 38px;
     color: rgb(0, 0, 0);
