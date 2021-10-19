@@ -97,9 +97,16 @@ b{
     font-size: 20px;
 }
 
+#DSC{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+}
 /* styling search bar */
 .search{
     background-color: #ffffff;
+    background: transparent;
 }
 
     
@@ -107,7 +114,7 @@ b{
         width:250px;
         height:25px;
         border-radius:25px;
-        border: none;
+        border: transparent;
     }
           
 .search{
