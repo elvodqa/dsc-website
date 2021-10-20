@@ -58,6 +58,11 @@ b{
     background-color: #7e0c1e;
 }
 
+.active{
+    font-style: bold;
+    border-color: #7e0c1e;
+}
+
 .container{
     width: 100%;
     height: 100vh;
