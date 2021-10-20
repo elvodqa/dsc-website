@@ -62,6 +62,7 @@ b{
 .active{
     font-style: bold;
     border-color: #7e0c1e;
+<<<<<<< Updated upstream
     display: flex;
     justify-content: right;
     width: 100%;
@@ -71,6 +72,9 @@ b{
     border-top: 2px solid #7e0c1e;
     position: fixed;
     box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
+=======
+
+>>>>>>> Stashed changes
 }
 
 .container{
