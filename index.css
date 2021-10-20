@@ -39,7 +39,7 @@ b{
     padding: 0 5px;
     color: rgb(225, 225, 225);
     font-size: 22px;
-    transition: .2s ease-in-out;
+    transition: all .3s ease-in-out;
     margin: 0px 20px;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgb(219, 219, 219);
@@ -47,6 +47,7 @@ b{
 
 #navlist li:hover{
     color:white;
+    transform: scale(1.4);
     text-decoration: underline;
 }
 
