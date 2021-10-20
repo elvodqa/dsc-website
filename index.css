@@ -1,77 +1,125 @@
-body {
-    background-color: #c0ffd9;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Canela Deck Web";
 }
 
+body{
+    background: rgb(212, 212, 212);
+}
 
-.index_header nav {
-    font-family: "Canela Deck Web",serif,thin;
-    font-size: 30px;
-    background-color: antiquewhite;
-    /*color: #ff6a32;*/
-    position: relative;
-    bottom: -17px;
-    /*background: #fff;*/
-    /*padding-right: ;*/
-    display: inline-block;
-    margin: 0 0 0 450px;
+ul{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+b{
+    font-weight: 900;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(5, 24, 53);
+    border-top: 2px solid #7e0c1e;
+    position: fixed;
+    box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
+}
+
+#navlist li{
+    display: inline;
+    padding: 0 5px;
+    color: rgb(225, 225, 225);
+    font-size: 22px;
+    transition: .2s ease-in-out;
+    margin: 0px 20px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(219, 219, 219);
+}
+
+#navlist li:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+#DSC{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    background-color: #7e0c1e;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.mid-section{
+    margin: auto;
+    width: 60%;
+    background: rgb(221, 221, 221);
+    border: 2px solid rgb(175, 175, 175);
+}   
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    background:rgb(228, 228, 228);
+    padding-top: 50px;
+    border-bottom:  2px solid rgb(175, 175, 175);
 }
 
-.index_header nav a {
-    text-decoration: none;
-    color: #ff6dab;
-    border-bottom: 1px solid #453886;
-    padding-bottom: .25em;
-
-
+.content:nth-child(1){
+    padding-top: 130px;
 }
 
-.index_header nav a:visited {
-    text-decoration: none;
-    color: #ff6dab;
+.content img{
+    padding: 20px 0px;
+    height: 200px;
 }
 
-.index_header nav a:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 20%;
-    border-bottom: 0;
-    padding-bottom: .3em;
-    text-decoration: none;
+.content h2{
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
-.index_main figure img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    width: 50%;
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+.content h3, p{
+    color: rgb(0, 0, 0);
+    padding: 0px 120px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
-.index_main figure:hover img {
-    width: 700px;
+/* styling search bar */
+.search{
+    background-color: #ffffff;
+    background: transparent;
 }
 
-.ourteam h1 {
-    text-align: center;
-    margin-top: 450px;
-    font-family: monospace;
-    font-size: 30px;
-
-}
-
-.ourteam #teamplaceholder {
-    display: block;
-    /*width: 50%;*/
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    height: 450px;
-
-}
-
-
-
+    
+.search input[type=text]{
+        width:250px;
+        height:25px;
+        border-radius:25px;
+        border: transparent;
+    }
+          
+.search{
+        float:right;
+        margin:7px;
+    }
+          
