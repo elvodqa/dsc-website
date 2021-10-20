@@ -29,7 +29,6 @@ body{
 }
 
 #DTop{
-    display: flex;
     justify-content: right;
     width: 100%;
     height: 60px;
