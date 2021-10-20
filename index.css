@@ -39,7 +39,7 @@ b{
     padding: 0 5px;
     color: rgb(225, 225, 225);
     font-size: 22px;
-    transition: .2s ease-in-out;
+    transition: all .3s ease-in-out;
     margin: 0px 20px;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: rgb(219, 219, 219);
@@ -47,6 +47,7 @@ b{
 
 #navlist li:hover{
     color:white;
+    transform: scale(1.4);
     text-decoration: underline;
 }
 
@@ -61,6 +62,15 @@ b{
 .active{
     font-style: bold;
     border-color: #7e0c1e;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(5, 24, 53);
+    border-top: 2px solid #7e0c1e;
+    position: fixed;
+    box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
 }
 
 .container{
