@@ -29,7 +29,6 @@ body{
 }
 
 #DTop{
-    display: flex;
     justify-content: right;
     width: 100%;
     height: 60px;
@@ -38,6 +37,10 @@ body{
     border-top: 2px solid rgb(255, 0, 0);
     position: fixed;
     box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
+    z-index: -1;
+    position:relative;  
+    left: auto;
+    margin: auto;
 }
 
 #navbar{
@@ -125,21 +128,3 @@ body{
     position: absolute;
     left: 15px;
 }
-/* styling search bar */
-.search{
-    background-color: #ffffff;
-    background: transparent;
-}
-
-    
-.search input[type=text]{
-        width:250px;
-        height:25px;
-        border-radius:25px;
-        border: transparent;
-    }
-          
-.search{
-        float:right;
-        margin:7px;
-    }
