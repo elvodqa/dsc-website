@@ -19,6 +19,8 @@ body{
     left: auto;
     margin: auto;
     align-items: center;
+    z-index: -1;
+    position:relative;  
 }
 
 #d1 {
@@ -52,6 +54,7 @@ body{
     border-top: 2px solid #7e0c1e;
     position: fixed;
     box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
+    
 }
 
 #navbar a{
