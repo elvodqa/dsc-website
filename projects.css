@@ -9,10 +9,6 @@ body{
     background: rgb(212, 212, 212);
 }
 
-ul{
-    text-decoration: none;
-}
-
 a{
     text-decoration: none;
 }
@@ -34,7 +30,7 @@ b{
     box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
 }
 
-#navlist li{
+#navbar li{
     display: inline;
     padding: 0 5px;
     color: rgb(225, 225, 225);
@@ -45,7 +41,7 @@ b{
     -webkit-text-stroke-color: rgb(219, 219, 219);
 }
 
-#navlist li:hover{
+#navbar li:hover{
     color:white;
     text-decoration: underline;
 }
