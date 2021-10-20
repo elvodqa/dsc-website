@@ -60,12 +60,12 @@ body {
 }
 
 .container img {
-    height: 450px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     margin: 20px;
     margin-top: 0px;
     float: right;
-    margin-right: 60px;
+    margin-right: 80px;
     border-radius: 15px 50px;
     border-width: 4px;
     border-style: solid;
