@@ -4,12 +4,12 @@
     position: relative;
     display: block;
     flex-direction: row;
-    width: 103%;
+    width: 102%;
     height: 60px;
     margin-top: -8px;
     margin-left: -10px;
     background-color: #011837;
-    border-top: 3px solid #7e0c1e;
+    border-top: 2px solid #7e0c1e;
 }
 
 .navbar ul li {
@@ -22,60 +22,127 @@
     text-decoration: none;
     min-height: 20px;
     text-align: center;
-    padding: 7px 29px;
-    padding-top: 2px;
-    font-size: 20px;
-    text-transform: uppercase;
+    display: inline;
+    padding: 0 5px;
+    margin: 0px 20px;
+    font-size: 22px;
     color: #fff;
+    font-family: "Canela Deck Web";
 }
 
 .navbar ul li:hover {
-    font-size: 24px;
-    padding: 7px 8px;
-    padding-top: 2px;
+   text-decoration: underline;
 }
 
 .navbar ul a img {
-    float: left;
-    box-align: left;
-    height: 40px;
-    width: 45px;
-    padding-top: 0px;
-    margin-top: -5px;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    padding-left: 3px;
 }
+
 
 /** body **/ 
-.row-1 {
-    width: 100%;
-    height: 700px;
-}
- .col-1 {
-     width: 95%;
+
+body {
+    font-family: "Canela Deck Web";
 }
 
-.row-1 .col-1 img {
+
+.info-box {
+    width: 100%;
+    height: 500px;
+}
+
+.robcol-img {
+    width: 100%;
+}
+
+.container img {
     height: 350px;
     width: 250px;
-    margin: 50px;
+    margin: 20px;
+    margin-top: 0px;
     float: right;
+    margin-right: 80px;
     border-radius: 15px 50px;
     border-width: 4px;
     border-style: solid;
     border-color: #7e0c1e;
-}
-
-.row-1 .col-1 #get img {
+    margin-top: 20px;
     display: block;
     
 }
 
-.row-1 .col-1 iframe {
-    width: 500px;
-    height: 400px;
-    margin: 50px;
+ .col-3 {
+    height: 100px;
+    margin: 5px;
+    margin-top: 70px;
+    border: none;
+    margin-left: 200px;
+ }
+
+.container .col .right-side-info {
+    height: 100px;
+    margin: 5px;
+    border: none;
+    padding-left: 150px;
+}
+
+
+ iframe {
+    width: 600px;
+    height: 500px;
+    margin: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
     float: left;
     border-color: #011837;
+    border-radius: 15px 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #000000;
 }
+
+.container .col-3 h3 {
+    padding-left: 70px;
+    padding-top: 30px;
+    color: #7e0c1e;
+    padding-bottom: 15px;
+    font-size: 25px;
+    width: 200px;
+    margin-right: 10px;
+    font-family: "Canela Deck Web";
+}
+
+.container .col-3 {
+    display: block;
+    float: left;
+}
+.container .col-3 p {
+    padding-left: 55px;
+    width: 300px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: "Canela Deck Web";
+}
+
+.container .right-side-info {
+    display: block;
+    padding: 30px;
+    padding-top: 5px;
+    float: right;
+    padding-top: 143px;
+    font-family: "Canela Deck Web";
+}
+
+.container hr {
+    width: 50%;
+    margin-left: 10px;
+}
+
+
 
 /**** mobile ****/ 
 @media screen and (max-width: 680px) {

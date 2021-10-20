@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Canela Deck Web";
+}
+
 body{
     position: relative;
     left: 0;
@@ -12,6 +19,8 @@ body{
     left: auto;
     margin: auto;
     align-items: center;
+    z-index: -1;
+    position:relative;  
 }
 
 #d1 {
@@ -21,39 +30,102 @@ body{
     align-items: center;
 }
 
-.index_header nav {
-    font-family: "Canela Deck Web",serif,thin;
-    font-size: 30px;
-
-    background-color: antiquewhite;
-    /*color: #ff6a32;*/
-    position: relative;
-    bottom: -17px;
-    /*background: #fff;*/
-    /*padding-right: ;*/
-    display: inline-block;
+#DTop{
+    justify-content: right;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 0, 0);
+    position: fixed;
+    box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
+    z-index: -1;
+    position:relative;  
     
 }
 
-.index_header nav a {
-    text-decoration: none;
-    color: #ff6dab;
-    border-bottom: 1px solid #453886;
-    padding-bottom: .25em;
-
+#navbar{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(5, 24, 53);
+    border-top: 2px solid #7e0c1e;
+    position: fixed;
+    box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
+    
 }
 
-.index_header nav a:visited {
+#navbar a{
     text-decoration: none;
-    color: #ff6dab;
 }
 
-.index_header nav a:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 20%;
-    border-bottom: 0;
-    padding-bottom: .3em;
-    text-decoration: none;
+#navlist li{
+    display: inline;
+    padding: 0 5px;
+    color: rgb(225, 225, 225);
+    font-size: 22px;
+    transition: .2s ease-in-out;
+    margin: 0px 20px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(219, 219, 219);
+}
+
+#navlist li:hover{
+    font-size: 28px;
+    color:white;
+    padding: 0 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.mid-section{
+    margin: auto;
+    width: 60%;
+    background: rgb(221, 221, 221);
+    border: 2px solid rgb(175, 175, 175);
+}   
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background:rgb(228, 228, 228);
+    padding-top: 50px;
+    border-bottom:  2px solid rgb(175, 175, 175);
+}
+
+.content:nth-child(1){
+    padding-top: 130px;
+}
+
+.content img{
+    padding: 20px 0px;
+    height: 200px;
+}
+
+.content h2{
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.content h3, p{
+    color: rgb(0, 0, 0);
+    padding: 0px 120px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#DSC{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
 }

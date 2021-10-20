@@ -9,10 +9,6 @@ body{
     background: rgb(212, 212, 212);
 }
 
-ul{
-    text-decoration: none;
-}
-
 a{
     text-decoration: none;
 }
@@ -34,7 +30,7 @@ b{
     box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
 }
 
-#navlist li{
+#navbar li{
     display: inline;
     padding: 0 5px;
     color: rgb(225, 225, 225);
@@ -45,10 +41,16 @@ b{
     -webkit-text-stroke-color: rgb(219, 219, 219);
 }
 
-#navlist li:hover{
-    font-size: 28px;
+#navbar li:hover{
     color:white;
-    padding: 0 0px;
+    text-decoration: underline;
+}
+
+#DSC{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
 }
 
 .container{
@@ -100,6 +102,7 @@ b{
 /* styling search bar */
 .search{
     background-color: #ffffff;
+    background: transparent;
 }
 
     
@@ -107,7 +110,7 @@ b{
         width:250px;
         height:25px;
         border-radius:25px;
-        border: none;
+        border: transparent;
     }
           
 .search{
