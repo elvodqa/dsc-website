@@ -14,6 +14,11 @@ body{
     font-family: monospace;
 }
 
+div h2 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
 #t1 {
     position: relative;
     left: auto;
