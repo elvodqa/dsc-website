@@ -5,13 +5,20 @@
     font-family: "Canela Deck Web";
 }
 
-body{
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    overflow-x: hidden;
+    color: white;
+    background-color: #2C353C;
     position: relative;
-    left: 0;
-    margin: auto;
-    align-items: center;
-    background-color: #c0ffd9;
-    font-family: monospace;
+}
+
+a { 
+    transition: all 0.3s ease; 
+    text-decoration: none;
 }
 
 #t1 {
@@ -129,3 +136,5 @@ body{
     position: absolute;
     left: 15px;
 }
+
+
