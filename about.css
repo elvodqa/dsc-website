@@ -137,4 +137,6 @@ a {
     left: 15px;
 }
 
-
+tr.spaceunder>td {
+    padding-bottom: 50px;
+}
