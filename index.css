@@ -106,17 +106,7 @@ b{
     font-size: 20px;
 }
 
-.gmaps {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    background:rgb(228, 228, 228);
-    padding-top: 50px;
-    border-bottom:  2px solid rgb(175, 175, 175);
-    
-}
+
 
 /* styling search bar */
 .search{
