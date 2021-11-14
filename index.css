@@ -98,7 +98,7 @@ b{
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
-.content h3, p{
+.content p{
     color: rgb(0, 0, 0);
     padding: 0px 120px;
     padding-bottom: 10px;
@@ -112,7 +112,7 @@ b{
 }
 
 .content .contact {
-    padding: 10px;
+    padding: 4px;
     font-size: 20px;
     font-weight: normal;
 }
@@ -121,6 +121,7 @@ b{
     padding: 15px; 
     padding-bottom: 50px;
     font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
