@@ -67,22 +67,7 @@ a {
     text-decoration: none;
 }
 
-#navlist li{
-    display: inline;
-    padding: 0 5px;
-    color: rgb(225, 225, 225);
-    font-size: 22px;
-    transition: .2s ease-in-out;
-    margin: 0px 20px;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(219, 219, 219);
-}
 
-#navlist li:hover{
-    font-size: 28px;
-    color:white;
-    padding: 0 0px;
-}
 
 .container{
     width: 100%;
