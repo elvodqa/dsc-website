@@ -3,7 +3,6 @@
 .navbar {
     position: relative;
     display: block;
-    flex-direction: row;
     width: 102%;
     height: 60px;
     margin-top: -8px;

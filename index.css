@@ -45,6 +45,7 @@ b{
     -webkit-text-stroke-color: rgb(219, 219, 219);
 }
 
+
 #navlist li:hover{
     color:white;
     transform: scale(1.4);
@@ -55,10 +56,8 @@ b{
     width: 60px;
     height: 30px;
     position: absolute;
-    left: 15px;
-    background-color: #7e0c1e;
+    left: 30px;
 }
-
 
 .container{
     width: 100%;
@@ -99,12 +98,33 @@ b{
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
-.content h3, p{
+.content p{
     color: rgb(0, 0, 0);
     padding: 0px 120px;
     padding-bottom: 10px;
     font-size: 20px;
 }
+
+.content iframe {
+    border: 2px solid rgb(5, 24, 53);
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.content .contact {
+    padding: 4px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.content .conheader {
+    padding: 15px; 
+    padding-bottom: 50px;
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 
 /* styling search bar */
 .search{

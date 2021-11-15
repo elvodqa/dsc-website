@@ -21,6 +21,11 @@ a {
     text-decoration: none;
 }
 
+div h2 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
 #t1 {
     position: relative;
     left: auto;
@@ -125,3 +130,5 @@ a {
 tr.spaceunder>td {
     padding-bottom: 50px;
 }
+
+
