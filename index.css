@@ -1,146 +1,190 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Canela Deck Web";
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Robert College DSC</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="w3-content" style="max-width:1600px">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-48 w3-lightgreen">
+      <h1 class="w3-xxxlarge"><b>Lorem Ipsum</b></h1>
+      <h6>Lorem ipsum dolor sit amet <span class="w3-tag"> consectetur adipiscing elit</span></h6>
+    </header>
+
+    <!-- Image header -->
+    <header class="w3-display-container w3-wide">
+      <img class="w3-image" src="a.jpg" alt="Fashion Blog" width="1600" height="1060">
+      <div class="w3-display-left w3-padding-large">
+        <h1 class="w3-text-lightgreen">Robert Collage</h1>
+        <h1 class="w3-jumbo w3-text-lightgreen"><b>Google DSC</b></h1>
+
+      </div>
+    </header>
+
+
+
+
+
+
+
+
+    <!-- Grid -->
+<div class="w3-row w3-padding w3-border">
+
+  <!-- Blog entries -->
+  <div class="w3-col l8 s12">
+
+    <!-- Blog entry -->
+    <div class="w3-container w3-lightgreen w3-margin w3-padding-large">
+      <div class="w3-center">
+        <h3>TITLE HEADING</h3>
+        <h5>Title description, <span class="w3-opacity">Date</span></h5>
+      </div>
+
+      <div class="w3-justify">
+        <img src="a.jpg" alt="1" style="width:100%" class="w3-padding-16">
+        <p><strong>Lorem ipsum</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel tortor et eros luctus ullamcorper. Etiam eros arcu, tempor a mauris quis, hendrerit interdum est. Praesent eu gravida neque, at tempor augue. Praesent sed diam commodo, convallis metus id, consequat mauris. Praesent laoreet bibendum ipsum vitae faucibus. Nulla tempus et ex a imperdiet. Proin facilisis neque est, congue tincidunt leo ultricies eget. In nulla ante, ultricies vel bibendum id, iaculis a metus. Vivamus libero est, malesuada sit amet libero a, auctor molestie odio. Aenean elementum sollicitudin hendrerit. Quisque ultrices tempor mauris condimentum malesuada. Aliquam consectetur cursus dolor, sed euismod odio pulvinar at.</p>
+        <p>Phasellus nisi mi, finibus vel finibus a, vehicula sit amet mi. Curabitur id neque scelerisque, aliquam ipsum id, mollis elit. Sed pharetra commodo mattis.</p>
+        <p class="w3-left"><button class="w3-button w3-lightgreen w3-border" onclick="likeFunction(this)"><b><i></i> Like</b></button></p>
+        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-lightgreen">1</span></button></p>
+        <p class="w3-clear"></p>
+        <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+          <hr>
+            <div class="w3-col l2 m3">
+              <img src="a.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>Name <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+              <p>Great blog!</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Blog entry -->
+    <div class="w3-container w3-lightgreen w3-margin w3-padding-large">
+      <div class="w3-center">
+        <h3>TITLE HEADING</h3>
+        <h5>Title description, <span class="w3-opacity">April 23, 2016</span></h5>
+      </div>
+
+      <div class="w3-justify">
+        <img src="a.jpg" alt="2" style="width:100%" class="w3-padding-16">
+        <p><strong>Lorem İpsum!</strong> finibus vel finibus a, vehicula sit amet mi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel tortor et eros luctus ullamcorper. Etiam eros arcu, tempor a mauris quis, hendrerit interdum est. Praesent eu gravida neque, at tempor augue. Praesent sed diam commodo, convallis metus id, consequat mauris. Praesent laoreet bibendum ipsum vitae faucibus. Nulla tempus et ex a imperdiet. Proin facilisis neque est, congue tincidunt leo ultricies eget. In nulla ante, ultricies vel bibendum id, iaculis a metus. Vivamus libero est, malesuada sit amet libero a, auctor molestie odio. Aenean elementum sollicitudin hendrerit. Quisque ultrices tempor mauris condimentum malesuada. Aliquam consectetur cursus dolor, sed euismod odio pulvinar at.</p>
+        <p class="w3-left"><button class="w3-button w3-lightgreen w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-lightgreen">2</span></button></p>
+        <p class="w3-clear"></p>
+
+        <!-- Example of comment field -->
+        <div id="demo2" style="display:none">
+          <div class="w3-row">
+            <hr>
+            <div class="w3-col l2 m3">
+              <img src="a.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>Name <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+              <p>Phasellus nisi mi, finibus vel finibus a, vehicula sit amet mi. Curabitur id neque scelerisque</p><br>
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="a.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>Name <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+              <p>Lorem İpsum!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog entry -->
+    <div class="w3-container w3-lightgreen w3-margin w3-padding-large">
+      <div class="w3-center">
+        <h3>TITLE HEADING</h3>
+        <h5>Title description, <span class="w3-opacity">April 7, 2016</span></h5>
+      </div>
+
+      <div class="w3-justify">
+        <img src="a.jpg" alt="3" style="width:100%" class="w3-padding-16">
+        <p><strong>Lorem İpsum!</strong> Phasellus nisi mi, finibus vel finibus a, vehicula sit amet mi. Curabitur id neque scelerisque</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel tortor et eros luctus ullamcorper. Etiam eros arcu, tempor a mauris quis, hendrerit interdum est. Praesent eu gravida neque, at tempor augue. Praesent sed diam commodo, convallis metus id, consequat mauris. Praesent laoreet bibendum ipsum vitae faucibus. Nulla tempus et ex a imperdiet. Proin facilisis neque est, congue tincidunt leo ultricies eget. In nulla ante, ultricies vel bibendum id, iaculis a metus. Vivamus libero est, malesuada sit amet libero a, auctor molestie odio. Aenean elementum sollicitudin hendrerit. Quisque ultrices tempor mauris condimentum malesuada. Aliquam consectetur cursus dolor, sed euismod odio pulvinar at.</p>
+        <p class="w3-left"><button class="w3-button w3-lightgreen w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-lightgreen">3</span></button></p>
+        <p class="w3-clear"></p>
+
+        <!-- Example of comment field -->
+        <div id="demo3" style="display:none">
+          <hr>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="a.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>Name <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+              <p>Lorem İpsum</p>
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="a.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>Name <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel tortor et eros luctus ullamcorper. Etiam eros arcu, tempor a mauris quis, hendrerit interdum est. Praesent eu gravida neque, at tempor augue. Praesent sed diam commodo, convallis metus id, consequat mauris. Praesent laoreet bibendum ipsum vitae faucibus. Nulla tempus et ex a imperdiet. Proin facilisis neque est, congue tincidunt leo ultricies eget. In nulla ante, ultricies vel bibendum id, iaculis a metus. Vivamus libero est, malesuada sit amet libero a, auctor molestie odio. Aenean elementum sollicitudin hendrerit. Quisque ultrices tempor mauris condimentum malesuada. Aliquam consectetur cursus dolor, sed euismod odio pulvinar at.</p>
+            </div>
+          </div>
+          <div class="w3-row w3-margin-bottom">
+            <div class="w3-col l2 m3">
+              <img src="a.jpg" style="width:90px;">
+            </div>
+            <div class="w3-col l10 m9">
+              <h4>Name <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+              <p>Lorem İpsum!!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+    <script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
 }
 
-body{
-    background: rgb(212, 212, 212);
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
 }
+</script>
 
-ul{
-    text-decoration: none;
-}
+  <!-- END BLOG ENTRIES -->
+  </div>
+</body>
+</html>
 
-a{
-    text-decoration: none;
-}
-
-b{
-    font-weight: 900;
-    color: white;
-}
-
-#navbar{
-    display: flex;
-    justify-content: right;
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    background-color: rgb(5, 24, 53);
-    border-top: 2px solid #7e0c1e;
-    position: fixed;
-    box-shadow: 0px 2px 6px 0px rgb(29, 29, 29);
-}
-
-#navlist li{
-    display: inline;
-    padding: 0 5px;
-    color: rgb(225, 225, 225);
-    font-size: 22px;
-    transition: all .3s ease-in-out;
-    margin: 0px 20px;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: rgb(219, 219, 219);
-}
-
-
-#navlist li:hover{
-    color:white;
-    transform: scale(1.4);
-    text-decoration: underline;
-}
-
-#DSC{
-    width: 60px;
-    height: 30px;
-    position: absolute;
-    left: 30px;
-}
-
-.container{
-    width: 100%;
-    height: 100vh;
-}
-
-.mid-section{
-    margin: auto;
-    width: 60%;
-    background: rgb(221, 221, 221);
-    border: 2px solid rgb(175, 175, 175);
-}
-
-.content{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    background:rgb(228, 228, 228);
-    padding-top: 50px;
-    border-bottom:  2px solid rgb(175, 175, 175);
-}
-
-.content:nth-child(1){
-    padding-top: 130px;
-}
-
-.content img{
-    padding: 20px 0px;
-    height: 200px;
-}
-
-.content h2{
-    font-size: 38px;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 0.6px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
-}
-
-.content p{
-    color: rgb(0, 0, 0);
-    padding: 0px 120px;
-    padding-bottom: 10px;
-    font-size: 20px;
-}
-
-.content iframe {
-    border: 2px solid rgb(5, 24, 53);
-    margin-bottom: 40px;
-    border-radius: 10px;
-}
-
-.content .contact {
-    padding: 4px;
-    font-size: 20px;
-    font-weight: normal;
-}
-
-.content .conheader {
-    padding: 15px; 
-    padding-bottom: 50px;
-    font-size: 38px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-
-/* styling search bar */
-.search{
-    background-color: #ffffff;
-    background: transparent;
-}
-
-
-.search input[type=text]{
-        width:250px;
-        height:25px;
-        border-radius:25px;
-        border: transparent;
-    }
-
-.search{
-        float:right;
-        margin:7px;
-    }
